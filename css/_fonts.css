@@ -58,3 +58,42 @@
   font-weight: 700;
   src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC3Eh7F1Z_3lydansdLiaPMg.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'Rex_Bold';
+    src: url('../../fonts/rex/RexBold.eot');
+    src: url('../../fonts/rex/RexBold.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/rex/RexBold.woff') format('woff'),
+         url('../../fonts/rex/RexBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Rex_Bold_Inline';
+    src: url('../../fonts/rex/RexBoldInline.eot');
+    src: url('../../fonts/rex/RexBoldInline.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/rex/RexBoldInline.woff') format('woff'),
+         url('../../fonts/rex/RexBoldInline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Rex_light';
+    src: url('../../fonts/rex/RexLight.eot');
+    src: url('../../fonts/rex/RexLight.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/rex/RexLight.woff') format('woff'),
+         url('../../fonts/rex/RexLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

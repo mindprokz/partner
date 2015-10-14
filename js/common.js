@@ -13,24 +13,33 @@ $(document).ready(function() {
 			return $(this).attr("src").replace(".svg", ".png");
 		});
 	};
-
-	//Аякс отправка форм
-	//Документация: http://api.jquery.com/jquery.ajax/
-	$("#form").submit(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				
-				$("#form").trigger("reset");
-			}, 1000);
+	// Видео с ютуб
+    $(".fancybox").click(function() {
+		$(".fancybox").fancybox({
+			maxWidth: 800,
+			maxHeight: 600,
+			fitToView: false,
+			width: '80%',
+			height: '80%',
+			autoSize: false,
+			closeClick: false,
+			openEffect: 'fade',
+			closeEffect: 'fade',
+			helpers: {
+				title: {
+					type: 'inside'
+				}
+			}
 		});
-		return false;
 	});
-
+	//  WOW js add
+	new WOW().init({
+		boxClass:     'wow',      // default
+		animateClass: 'animated', // default
+		offset:       200,          // default
+		mobile:       false,       // default
+		live:         true        // default
+	});
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
