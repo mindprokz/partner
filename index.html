@@ -2,7 +2,7 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru" manifest="partner.appcache"> <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
@@ -23,46 +23,48 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!-- Здесь пишем код -->
-	<div id="header">
-		<img src="img/bg_top.jpg" alt="background" id="main__video">
-		<div id="top__content">
-			<img src="img/logo.png" class=" hid wow bounceInDown" alt="logotype">
-			<h3 class="light main_header_1  hid wow slideInLeft">Партнерская компания</h3>
-			<h3 class="bold main_header_2  hid wow slideInRight" >«MINDPRO-GROUP» </h3>
-			<a href="http://www.youtube.com/embed/-lDxtY-4NVA?autoplay=1" class="button bold  hid wow zoomIn fancybox fancybox.iframe">
-				<img src="img/play.png" alt="">
-				<span>Посмотреть видео</span>
+<div id="header">
+	<img src="img/bg_top.jpg" alt="background" id="main__video">
+	<div id="top__content">
+		<img src="img/logo.png" class=" hid wow bounceInDown" alt="logotype">
+		<h3 class="light main_header_1  hid wow slideInLeft">Партнерская компания</h3>
+		<h3 class="bold main_header_2  hid wow slideInRight" >«MINDPRO-GROUP» </h3>
+		<a href="http://www.youtube.com/embed/-lDxtY-4NVA?autoplay=1" class="button bold  hid wow zoomIn fancybox fancybox.iframe">
+			<img src="img/play.png" alt="">
+			<span>Посмотреть видео</span>
+		</a>
+		<div class="scroll hid wow zoomInUp" data-wow-offset="-50">
+			<a href="#goQuality">
+				<svg version="1.2" baseProfile="tiny" x="0px" y="0px" width="80px" height="80px" xml:space="preserve">
+					<g id="arrow" class="width_stroke">
+						<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="31,43.7 39.4,51.6 47.9,43.7 " class="animstroke1"/>
+						<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="31,51.6 39.4,59.4 47.9,51.6 	" class="animstroke2"/>
+						<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="30.8,59.4 39.2,67.2 47.7,59.4 	" class="animstroke3"/>
+					</g>
+					<g id="wheel_mouse">
+						<circle fill="#ab13c8" stroke="#ab13c8" stroke-miterlimit="10" cx="39.4" cy="16" r="1"/>
+					</g>
+					<g id="stroke_mouse" class="width_stroke">
+						<path fill="none" stroke="#ab13c8" stroke-miterlimit="10" d="M31,15.6c-0.1,4.7,0,14.3,0,19c0,0,1.2,6.3,5.4,6.3h6 c0,0,5-1.6,5.1-5.4V16.5c0,0,0-6.4-5.2-6.2l-5,0C37.3,10.3,31.1,10.3,31,15.6z"/>
+					</g>
+				</svg>
 			</a>
-			<div class="scroll hid wow zoomInUp" data-wow-offset="-50">
-				<a href="#goQuality">
-					<svg version="1.2" baseProfile="tiny" x="0px" y="0px" width="80px" height="80px" xml:space="preserve">
-						<g id="arrow" class="width_stroke">
-							<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="31,43.7 39.4,51.6 47.9,43.7 " class="animstroke1"/>
-								<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="31,51.6 39.4,59.4 47.9,51.6 	" class="animstroke2"/>
-									<polyline fill="none" stroke="#ab13c8" stroke-miterlimit="10" points="30.8,59.4 39.2,67.2 47.7,59.4 	" class="animstroke3"/>
-									</g>
-									<g id="wheel_mouse">
-										<circle fill="#ab13c8" stroke="#ab13c8" stroke-miterlimit="10" cx="39.4" cy="16" r="1"/>
-									</g>
-									<g id="stroke_mouse" class="width_stroke">
-										<path fill="none" stroke="#ab13c8" stroke-miterlimit="10" d="M31,15.6c-0.1,4.7,0,14.3,0,19c0,0,1.2,6.3,5.4,6.3h6
-											c0,0,5-1.6,5.1-5.4V16.5c0,0,0-6.4-5.2-6.2l-5,0C37.3,10.3,31.1,10.3,31,15.6z"/>
-										</g>
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-	<div class="container">
+		</div>
+	</div>
+</div>
+	<div class="header_content_body">Варианты сотрудничества</div>
+	<img src="img/header1.png" alt="header_1">
+	<div class="content">
 		<div class="first clear">
 			<div class="body_content">
 				<span class="header_content wow hid fadeInDown">ВЫ</span>
-				<p class="parag_content wow hid bounceInLeft">Cкидываете телефон горячего клиента, которому необходим видеоролик</p>
+				<p class="parag_content wow hid bounceInLeft" data-wow-delay="0.2s">Cкидываете телефон горячего клиента, которому необходим видеоролик</p>
 			</div>
-			<img src="img/people/1.png" class="people_p wow hid fadeIn" data-wow-delay="0.5s">
+			<img src="img/people/1.png" class="people_p wow hid fadeIn" data-wow-delay="0.6s">
 			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
 				<g>
 					<path class="wow line_svg hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M1.3,0c45,80.7,147.4,66.8,195.4,40.5"/>
@@ -84,11 +86,114 @@
 					</g>
 				</svg>
 				<span class="header_content2 wow hid fadeInDown" data-wow-delay="1.8s">МЫ</span>
-				<p class="parag_content2 wow hid bounceInLeft" data-wow-delay="1.8s">Cами встречаемся. Продаем и оказываем услугу. Вам отдаем 10% от суммы общего договора</p>
+				<p class="parag_content2 wow hid bounceIn" data-wow-delay="1.9s">Cами встречаемся. Продаем и оказываем услугу. Вам отдаем 10% от суммы общего договора</p>
 			</div>
 			<img src="img/people/2.png" class="people_p wow hid fadeIn" data-wow-delay="2.3s">
 		</div>
+		<div class="third clear">
+			<img src="img/people/3.png" class="five_per wow hid fadeIn" data-wow-delay="3.6s">
+			<span class="header_content3 wow hid fadeInDown" data-wow-delay="4s">далее</span>
+			<p class="parag_content3 wow hid bounceInRight" data-wow-delay="4s">C 2-го и 3-го договора <br> отдаем вам по 5% <br> от общей суммы договора</p>
+		</div>
 	</div>
+	<img src="img/header2.png" alt="header_1">
+	<div class="content">
+		<div class="first2 clear">
+			<div class="body_content2">
+				<span class="header_content4 wow hid fadeInDown">У вас</span>
+				<p class="parag_content4 wow hid bounceInLeft"data-wow-delay="0.2s">Есть постоянный клиент, который уже заказывает у вас услуги.</p>
+			</div>
+			<img src="img/people/4.png" class="people_p wow hid fadeIn" data-wow-delay="0.6s">
+			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+				<g>
+					<path class="wow line_svg hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M1.3,0c45,80.7,147.4,66.8,195.4,40.5"/>
+				</g>
+				<g>
+					<path class="wow baseline_svg hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M188.8,38.4c1.6-0.3,5.8,1,7.4,1.6c0.4,0.1,0.6,0.6,0.5,1
+						c-0.4,1.6-1.4,5.6-2.5,6.7"/>
+				</g>
+			</svg>
+		</div>
+		<div class="second2 clear">
+			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+					<g>
+						<path class="wow line_svg2 hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M0,71C50-22.7,179-7.6,240.7,38.4" data-wow-delay="2.5s"/>
+					</g>
+					<g >
+						<path class="wow baseline_svg2" fill="none" stroke="#636464" stroke-miterlimit="10" d="M240,32c1.6,3.5,1.1,6.7,1.1,6.7s-3.9,1.3-7.9,0.4" data-wow-delay="3.5s"/>
+					</g>
+			</svg>
+			<div class="body_content2">
+				<span class="header_content5 wow hid fadeInDown" data-wow-delay="1.8s">МЫ</span>
+				<p class="parag_content5 wow hid bounceIn" data-wow-delay="1.9s">Cовместно с вашей компанией решаем вопрос заказчика</p>
+			</div>
+			<img src="img/people/5.png" class="people_p wow hid fadeIn" data-wow-delay="2.3s">
+		</div>
+		<div class="third clear">
+			<img src="img/people/6.png" class=" wow hid fadeIn" data-wow-delay="3.6s">
+			<div class="body_content3">
+				<span class="header_content6 wow hid fadeInDown" data-wow-delay="4s">Финансовые условия</span>
+				<p class="parag_content3 wow hid bounceInRight" data-wow-delay="4s">Рассчитываются индивидуально под каждую отдельную ситуацию</p>
+			</div>
+		</div>
+	</div>
+	<img src="img/tri.png" alt="header_1">
+	<div class="example_2"><!-- начало линии -->
+		<h3> <span> Пример варианта 2 </span> </h3>
+	</div>
+	<div class="example_content content">
+		<div class="first_example_content">
+			<span>- <span class="bold">Вы агенство</span> предоставляющее услуги SMM для заказчика.</span> <br>
+			<span>-<span class="bold"> У вас есть</span> задачи по созданию уникального видео контента.</span>
+		</div>
+		<div class="third_example_content">
+			<span>- <span class="bold">Вы получаете</span> надежного партнера отвечающей своей репутацией.</span> <br>
+			<span>-<span class="bold"> Также зарабатываете</span> на каждой услуге оказанной нами для вашего заказчика.</span>
+		</div>
+		<div class="second_example_content">
+			<span>Вы ставите нам задачу. <br> Проводим встречу со стороной заказчика. <br> Подписываем договор. <br> <span class="bold"> Решаем задачу. </span> </span>
+		</div>
+	</div>
+	<div class="example_2"></div> <!-- Линия -->
+	<img src="img/header3.png" alt="header_2">
+	<div class="content">
+		<div class="first clear">
+			<h3 class="first_header wow fadeInDown hid" data-wow-delay="0s">Клиентская база связи</h3>
+			<p class="parag_header wow bounceInLeft hid" data-wow-delay="0.2s">Есть у нас и у вас</p>
+			<img src="img/people/7.png" alt="" class="wow fadeIn hid" data-wow-delay="0.5s">
+			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+				<g>
+					<path class="wow line_svg hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M1.3,0c45,80.7,147.4,66.8,195.4,40.5"/>
+				</g>
+				<g>
+					<path class="wow baseline_svg hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M188.8,38.4c1.6-0.3,5.8,1,7.4,1.6c0.4,0.1,0.6,0.6,0.5,1
+						c-0.4,1.6-1.4,5.6-2.5,6.7"/>
+				</g>
+			</svg>
+		</div>
+		<div class="second3 clear">
+			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+					<g>
+						<path class="wow line_svg2 hid" fill="none" stroke="#636464" stroke-miterlimit="10" d="M0,71C50-22.7,179-7.6,240.7,38.4" data-wow-delay="2.5s"/>
+					</g>
+					<g >
+						<path class="wow baseline_svg2" fill="none" stroke="#636464" stroke-miterlimit="10" d="M240,32c1.6,3.5,1.1,6.7,1.1,6.7s-3.9,1.3-7.9,0.4" data-wow-delay="3.5s"/>
+					</g>
+			</svg>
+			<h3 class="first_header wow fadeInDown hid" data-wow-delay="1.5s">Рекомендуем</h3>
+			<p class="parag_header wow bounceIn hid" data-wow-delay="1.7s">Друг друга и работаем от души</p>
+			<img src="img/people/8.png" alt="" class="wow fadeIn hid" data-wow-delay="1.9s">
+		</div>
+		<div class="third3 clear">
+			<h3 class="first_header wow fadeInDown hid" data-wow-delay="3.1s">Финансовые <br> условия</h3>
+			<p class="parag_header wow bounceInRight hid" data-wow-delay="3.3s">Обсуждаются по <br> ситуации</p>
+			<img src="img/people/9.png" alt="" class="wow fadeIn hid" data-wow-delay="3.5s">
+		</div>
+	</div>
+	<h3 id="pre_footer">
+		<span> <span class="bold">Узнайте подробней</span> о наших услугах на нашем сайте</span> <br>
+		<a href="MINDPRO-GROUP.COM">MINDPRO-GROUP.COM</a>
+	</h3>
 	<div id="footer">
 		<div class="container">
 		<div class="col-lg-12">
@@ -111,21 +216,6 @@
 		</div>
 		</div>
 	</div>
-	<!--     Пример формы обратной связи          -->
-	<!--
-		<div class="main">
-		<h3>Внимание</h3>
-		<p>Оставьте ваши контактные данные и наш консультант<br/>свяжется с вами в течении 30 секунд</p>
-		
-				<form id="application" action=" application.php" method="POST" name=" application ">
-						<input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
-						<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required/>
-						<input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required />
-						<button class="applicationButton" type="submit" form="application"> Получить прайс </button>
-				</form>
-		</div>
-	-->
-	<div class="hidden"></div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
